@@ -86,7 +86,7 @@ Launch a Linux instance with a public DNS name that is reachable from the Intern
 ### Edit Inbound Rules
    - Under Security Groups > launch-wizard-1 > Edit inbound rules 
       - Add rule of Type: <b>HTTP</b> Source: <b>Anywhere</b>
-   - ![This is an image](https://user-images.githubusercontent.com/52709741/156600132-a71c14b6-f595-4bb6-8528-6ae3379ef43b.jpg)
+   ![This is an image](https://user-images.githubusercontent.com/52709741/156600132-a71c14b6-f595-4bb6-8528-6ae3379ef43b.jpg)
 ## To-do
    - [ ] Add login and logout functionality
    - [ ] Improve error handling
