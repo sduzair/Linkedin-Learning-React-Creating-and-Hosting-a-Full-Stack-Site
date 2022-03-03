@@ -84,4 +84,5 @@ Launch a Linux instance with a public DNS name that is reachable from the Intern
 ### Mapping to localhost/8000
    - `sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8000`
 ### Edit Inbound Rules
-   - Security Groups > launch-wizard-1 > Edit inbound rules > Add rule of Type: HTTP Source: Anywhere
+   - Under Security Groups > launch-wizard-1 > Edit inbound rules 
+      - Add rule of Type: <b>HTTP</b> Source: <b>Anywhere</b>
