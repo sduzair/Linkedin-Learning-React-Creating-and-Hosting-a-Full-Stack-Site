@@ -81,3 +81,5 @@ Launch a Linux instance with a public DNS name that is reachable from the Intern
 ### Keep server running
    - `npm install -g forever`
    - `forever start -c "npm start" .`
+### Mapping to localhost/8000
+   - `sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8000`
