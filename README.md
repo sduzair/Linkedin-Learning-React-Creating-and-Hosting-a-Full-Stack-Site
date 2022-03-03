@@ -10,7 +10,8 @@ Combines React, Node.js, and Amazon Web Services (AWS) in a full-stack, full-fea
 
 ## Configuration
 
-Launch a Linux instance with a public DNS name that is reachable from the Internet and to which you are able to connect using SSH. For more information, see Step 1: Launch an Instance in the Amazon EC2 User Guide for Linux Instances https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance_linux.
+Launch a Linux instance with a public DNS name that is reachable from the Internet and to which you are able to connect using SSH. For more information, see Step 1: Launch an Instance in the Amazon EC2 User Guide for Linux Instances. 
+   - See https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance_linux.
 ### Create key pair and download .pem file
    1. Add .pem file to C:\\Users\<username>\.ssh (Windows)
    2. File must have read permission
@@ -25,7 +26,7 @@ Launch a Linux instance with a public DNS name that is reachable from the Intern
       - ```. ~/.nvm/nvm.sh```
    3. Use nvm to install the latest version of Node.js by typing the following at the command line.
       - ```nvm install node```
-   4. https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
+   - See https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
 ### Install Node Package Manager (NPM)
    - ```npm install -g npm@latest```
 ### Install MongoDB 
@@ -70,4 +71,4 @@ Launch a Linux instance with a public DNS name that is reachable from the Intern
            }
          ])
          ```
-      - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-amazon/
+      - See https://docs.mongodb.com/manual/tutorial/install-mongodb-on-amazon/
