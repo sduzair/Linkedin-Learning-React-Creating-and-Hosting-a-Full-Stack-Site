@@ -25,10 +25,10 @@ Launch a Linux instance with a public DNS name that is reachable from the Intern
       - ```. ~/.nvm/nvm.sh```
    3. Use nvm to install the latest version of Node.js by typing the following at the command line.
       - ```nvm install node```
-   https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
+   4. https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
 ### Install Node Package Manager (NPM)
    - ```npm install -g npm@latest```
-### Install MongoDB https://docs.mongodb.com/manual/tutorial/install-mongodb-on-amazon/
+### Install MongoDB 
    1. Create a /etc/yum.repos.d/mongodb-org-5.0.repo file so that you can install MongoDB directly using yum
       - ```sudo nano /etc/yum.repos.d/mongodb-org-5.0.repo```
       - ```[mongodb-org-5.0]
@@ -70,3 +70,4 @@ Launch a Linux instance with a public DNS name that is reachable from the Intern
            }
          ])
          ```
+      - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-amazon/
