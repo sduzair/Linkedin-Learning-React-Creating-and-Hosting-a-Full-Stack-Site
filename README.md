@@ -73,3 +73,8 @@ Launch a Linux instance with a public DNS name that is reachable from the Intern
          ])
          ```
       - See https://docs.mongodb.com/manual/tutorial/install-mongodb-on-amazon/
+### Clone repo
+   - `git clone https://github.com/sduzair/Linkedin-Learning-React-Creating-and-Hosting-a-Full-Stack-Site.git`
+   - `cd Linkedin-Learning-React-Creating-and-Hosting-a-Full-Stack-Site/`
+### Install node modules
+   - `npm install`
