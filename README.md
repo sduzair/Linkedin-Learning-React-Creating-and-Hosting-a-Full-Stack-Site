@@ -78,3 +78,6 @@ Launch a Linux instance with a public DNS name that is reachable from the Intern
    - `cd Linkedin-Learning-React-Creating-and-Hosting-a-Full-Stack-Site/`
 ### Install node modules
    - `npm install`
+### Keep server running
+   - `npm install -g forever`
+   - `forever start -c "npm start" .`
