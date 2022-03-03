@@ -46,8 +46,8 @@ Launch a Linux instance with a public DNS name that is reachable from the Intern
    4. Create database
       - ```mongosh```
       - ```use my-blog```
-      - ```db.articles.insert(```
-      - ```[
+      - ```mongodb
+         db.articles.insert([
            {
              name: 'learn-react',
              upvotes: 4,
@@ -72,5 +72,4 @@ Launch a Linux instance with a public DNS name that is reachable from the Intern
            }
          ])
          ```
-         - ```)```
       - See https://docs.mongodb.com/manual/tutorial/install-mongodb-on-amazon/
