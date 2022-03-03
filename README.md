@@ -26,46 +26,46 @@ Combines React, Node.js, and Amazon Web Services (AWS) in a full-stack, full-fea
    3. Use nvm to install the latest version of Node.js by typing the following at the command line.
       - ```nvm install node```
 6. Install Node Package Manager (NPM)
-```npm install -g npm@latest```
+   - ```npm install -g npm@latest```
 7. Install MongoDB https://docs.mongodb.com/manual/tutorial/install-mongodb-on-amazon/
    1. Create a /etc/yum.repos.d/mongodb-org-5.0.repo file so that you can install MongoDB directly using yum
-   ```sudo nano /etc/yum.repos.d/mongodb-org-5.0.repo```
-   ```[mongodb-org-5.0]
-   name=MongoDB Repository
-   baseurl=https://repo.mongodb.org/yum/amazon/2/mongodb-org/5.0/x86_64/
-   gpgcheck=1
-   enabled=1
-   gpgkey=https://www.mongodb.org/static/pgp/server-5.0.asc
-   ```
+      - ```sudo nano /etc/yum.repos.d/mongodb-org-5.0.repo```
+      - ```[mongodb-org-5.0]
+         name=MongoDB Repository
+         baseurl=https://repo.mongodb.org/yum/amazon/2/mongodb-org/5.0/x86_64/
+         gpgcheck=1
+         enabled=1
+         gpgkey=https://www.mongodb.org/static/pgp/server-5.0.asc
+         ```
    2. Install
-   ```sudo yum install -y mongodb-org```
+      - ```sudo yum install -y mongodb-org```
    3. Start service
-   ```sudo service mongod start```
+      - ```sudo service mongod start```
    4. Create database
-   ```mongosh```
-   ```use my-blog```
-   ```db.articles.insert([
-     {
-       name: 'learn-react',
-       upvotes: 4,
-       comments: [
-         {
-           username: 'Azeez',
-           text: 'I love this article more than uzair'
-         },
-         { username: 'Uzair', text: 'I love this article' },
-         { username: 'Malik', text: 'Interesting' }
-       ]
-     },
-     {
-       name: 'learn-node',
-       upvotes: 0,
-       comments: []
-     },
-     {
-       name: 'my-thoughts-on-resumes',
-       upvotes: 8,
-       comments: []
-     }
-   ])
-   ```
+      - ```mongosh```
+      - ```use my-blog```
+      - ```db.articles.insert([
+           {
+             name: 'learn-react',
+             upvotes: 4,
+             comments: [
+               {
+                 username: 'Azeez',
+                 text: 'I love this article more than uzair'
+               },
+               { username: 'Uzair', text: 'I love this article' },
+               { username: 'Malik', text: 'Interesting' }
+             ]
+           },
+           {
+             name: 'learn-node',
+             upvotes: 0,
+             comments: []
+           },
+           {
+             name: 'my-thoughts-on-resumes',
+             upvotes: 8,
+             comments: []
+           }
+         ])
+         ```
