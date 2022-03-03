@@ -15,16 +15,16 @@ Combines React, Node.js, and Amazon Web Services (AWS) in a full-stack, full-fea
    1. Add .pem file to C:\\Users\<username>\.ssh (Windows)
    2. File must have read permission
 3. Connect to your Linux instance as ec2-user using SSH.
-```ssh -i <filename>.pem ece-user@<public-IPV4-DNS>```
+   - ```ssh -i <filename>.pem ece-user@<public-IPV4-DNS>```
 4. Install git
-```sudo yum install git```
+   - ```sudo yum install git```
 5. Install Node https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
    1. Install Node Version Manager
-   ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash```
+      - ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash```
    2. Activate nvm by typing the following at the command line.
-   ```. ~/.nvm/nvm.sh```
+      - ```. ~/.nvm/nvm.sh```
    3. Use nvm to install the latest version of Node.js by typing the following at the command line.
-   ```nvm install node```
+      - ```nvm install node```
 6. Install Node Package Manager (NPM)
 ```npm install -g npm@latest```
 7. Install MongoDB https://docs.mongodb.com/manual/tutorial/install-mongodb-on-amazon/
