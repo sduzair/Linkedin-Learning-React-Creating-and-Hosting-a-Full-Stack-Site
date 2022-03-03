@@ -86,3 +86,7 @@ Launch a Linux instance with a public DNS name that is reachable from the Intern
 ### Edit Inbound Rules
    - Under Security Groups > launch-wizard-1 > Edit inbound rules 
       - Add rule of Type: <b>HTTP</b> Source: <b>Anywhere</b>
+### To-do
+   - [ ] Add login and logout functionality
+   - [ ] Improve error handling
+   - [ ] Securing MongoDB
