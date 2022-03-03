@@ -10,24 +10,24 @@ Combines React, Node.js, and Amazon Web Services (AWS) in a full-stack, full-fea
 
 ## Configuration
 
-1. Launch a Linux instance with a public DNS name that is reachable from the Internet and to which you are able to connect using SSH. For more information, see Step 1: Launch an Instance in the Amazon EC2 User Guide for Linux Instances https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance_linux.
-2. Create key pair and download .pem file
+### Launch a Linux instance with a public DNS name that is reachable from the Internet and to which you are able to connect using SSH. For more information, see Step 1: Launch an Instance in the Amazon EC2 User Guide for Linux Instances https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance_linux.
+### Create key pair and download .pem file
    1. Add .pem file to C:\\Users\<username>\.ssh (Windows)
    2. File must have read permission
-3. Connect to your Linux instance as ec2-user using SSH.
+### Connect to your Linux instance as ec2-user using SSH.
    - ```ssh -i <filename>.pem ece-user@<public-IPV4-DNS>```
-4. Install git
+### Install git
    - ```sudo yum install git```
-5. Install Node https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
+### Install Node https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
    1. Install Node Version Manager
       - ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash```
    2. Activate nvm by typing the following at the command line.
       - ```. ~/.nvm/nvm.sh```
    3. Use nvm to install the latest version of Node.js by typing the following at the command line.
       - ```nvm install node```
-6. Install Node Package Manager (NPM)
+### Install Node Package Manager (NPM)
    - ```npm install -g npm@latest```
-7. Install MongoDB https://docs.mongodb.com/manual/tutorial/install-mongodb-on-amazon/
+### Install MongoDB https://docs.mongodb.com/manual/tutorial/install-mongodb-on-amazon/
    1. Create a /etc/yum.repos.d/mongodb-org-5.0.repo file so that you can install MongoDB directly using yum
       - ```sudo nano /etc/yum.repos.d/mongodb-org-5.0.repo```
       - ```[mongodb-org-5.0]
