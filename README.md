@@ -16,7 +16,7 @@ Launch a Linux instance with a public DNS name that is reachable from the Intern
    1. Add .pem file to C:\\Users\<username>\.ssh (Windows)
    2. File must have read permission
 ### Connect to your Linux instance as ec2-user using SSH.
-   - ```ssh -i <filename>.pem ece-user@<public-IPV4-DNS>```
+   - ```ssh -i <filename>.pem ec2-user@<public-IPV4-DNS>```
 ### Install git
    - ```sudo yum install git```
 ### Install Node 
